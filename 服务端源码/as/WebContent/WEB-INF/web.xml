@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>GL</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>    
+  </welcome-file-list>
+  
+  <servlet>  
+    <servlet-name>LoginServlet</servlet-name>  
+    <servlet-class>zw.LoginServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>LoginServlet</servlet-name>  
+    <url-pattern>/LoginServlet</url-pattern>  
+  </servlet-mapping>  
+  
+  <servlet>  
+    <servlet-name>RegServlet</servlet-name>  
+    <servlet-class>zw.RegServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>RegServlet</servlet-name>  
+    <url-pattern>/RegServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>StaffServlet</servlet-name>  
+    <servlet-class>zw.StaffServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>StaffServlet</servlet-name>  
+    <url-pattern>/StaffServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>QueryServlet</servlet-name>  
+    <servlet-class>zw.QueryServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>QueryServlet</servlet-name>  
+    <url-pattern>/QueryServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>AddServlet</servlet-name>  
+    <servlet-class>zw.AddServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddServlet</servlet-name>  
+    <url-pattern>/AddServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>EditServlet</servlet-name>  
+    <servlet-class>zw.EditServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>EditServlet</servlet-name>  
+    <url-pattern>/EditServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>DeleteServlet</servlet-name>  
+    <servlet-class>zw.DeleteServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteServlet</servlet-name>  
+    <url-pattern>/DeleteServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>AdminServlet</servlet-name>  
+    <servlet-class>zw.AdminServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AdminServlet</servlet-name>  
+    <url-pattern>/AdminServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>ResetServlet</servlet-name>  
+    <servlet-class>zw.ResetServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>ResetServlet</servlet-name>  
+    <url-pattern>/ResetServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>RemoveServlet</servlet-name>  
+    <servlet-class>zw.RemoveServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>RemoveServlet</servlet-name>  
+    <url-pattern>/RemoveServlet</url-pattern>  
+  </servlet-mapping>
+</web-app>

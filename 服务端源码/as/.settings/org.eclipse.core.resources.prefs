@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/zw/AddServlet.java=UTF-8
+encoding//src/zw/AdminServlet.java=UTF-8
+encoding//src/zw/DBUtil.java=UTF-8
+encoding//src/zw/DeleteServlet.java=UTF-8
+encoding//src/zw/EditServlet.java=UTF-8
+encoding//src/zw/LoginServlet.java=UTF-8
+encoding//src/zw/QueryServlet.java=UTF-8
+encoding//src/zw/RegServlet.java=UTF-8
+encoding//src/zw/RemoveServlet.java=UTF-8
+encoding//src/zw/ResetServlet.java=UTF-8
+encoding//src/zw/StaffServlet.java=UTF-8

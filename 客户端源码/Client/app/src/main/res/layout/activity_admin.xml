@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pku.codingma.client.AdminActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:textColor="#f5f"
+        android:textSize="20sp"
+        android:text="管理员操作:"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_margin="40dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:background="#ffffe4"/>
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:background="#f17"
+        android:text="重置密码"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="#f424ff"
+        android:text="销毁账号"
+        android:textSize="18sp"/>
+</LinearLayout>
